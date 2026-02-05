@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloController {
        @GetMapping("/")
     public String hello() {
-        return "Hello from Java CI/CD Pipeline!";
+        return "Hello from Java CI/CD Pipeline! hurray......";
     }
 }
